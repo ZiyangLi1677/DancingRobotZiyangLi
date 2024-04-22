@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+
+.stage {
+top: 150px;
+font-size: 40px;
+text-align: center;
+left: 0px;
+top: 0px;
+width: 90%;
+height: 800px;
+background: #ddd;
+border-style: solid;
+border-width: 5px;
+border-color: black;
+overflow: hidden;
+margin-left: auto;
+margin-right: auto;
+}
+
+.wholebody {
+background: red;
+
+/* To hide uncomment this*/
+/* background: #ddd; */
+
+margin-left: 10px;
+margin-top: -20px;
+width: 240px;
+height: 450px;
+margin-top: 70px;
+
+animation: geeks 5s infinite;
+}
+
+@keyframes geeks {
+0% {
+margin-left: 10%;
+}
+
+20% {
+margin-left: 50%;
+}
+
+35% {
+margin-left: 35%;
+}
+
+45% {
+margin-left: 35%;
+}
+
+51% {
+margin-left: 35%;
+}
+
+54% {
+margin-left: 40%;
+}
+
+57% {
+margin-left: 60%;
+}
+
+60% {
+margin-left: 50%;
+}
+
+63% {
+margin-left: 75%;
+}
+
+66% {
+margin-left: 60%;
+}
+
+69% {
+margin-left: 70%;
+}
+
+92% {
+margin-left: 14%;
+}
+
+100% {
+margin-left: 0%;
+}
+}
+.head {
+
+width: 50%;
+height: 80px;
+margin-top: 10px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 50%;
+background-image:url("face.png");background-size: contain;background-repeat: no-repeat;background-position: 40px;
+}
+.body {
+background: black;
+width: 50%;
+height: 170px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 10%;
+display: inline-block;
+}
+.leg1 {
+background: blue;
+width: 20%;
+height: 200px;
+margin-left: 28%;
+margin-right: auto;
+border-radius: 10%;
+}
+.leg2 {
+background: blue;
+width: 20%;
+height: 200px;
+margin-left: auto;
+margin-right: 28%;
+border-radius: 10%;margin-top: -200px;
+}
+.arm1 {
+background: blue;
+width: 20%;
+height: 150px;
+
+display: inline-block;
+}
+.arm2 {
+background: blue;
+width: 20%;
+height: 150px;
+
+display: inline-block;
+}
+</style>
+</head>
+<body>
+<div class="stage">
+<video width="320" height="240" controls>
+  <source src="20240401122953824(1).MP4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="wholebody">
+<div class="head">
+</div>
+
+<div class="arm1">
+</div>
+<div class="body">
+</div>
+<div class="arm2">
+</div>
+
+<div class="leg1">
+</div>
+<div class="leg2">
+</div>
+
+
+</div>
+</div>
+
+</body>
+
+</html>
